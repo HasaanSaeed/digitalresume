@@ -7,8 +7,42 @@ class Resume extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final ButtonStyle style =
+        TextButton.styleFrom(primary: Theme.of(context).colorScheme.onPrimary);
     return Scaffold(
       appBar: AppBar(
+        actions: <Widget>[
+          TextButton(
+            style: style,
+            onPressed: () {},
+            child: const Text('HOME'),
+          ),
+          TextButton(
+            style: style,
+            onPressed: () {},
+            child: const Text('ABOUT'),
+          ),
+          TextButton(
+            style: style,
+            onPressed: () {},
+            child: const Text('SERVICES'),
+          ),
+          TextButton(
+            style: style,
+            onPressed: () {},
+            child: const Text('PORTFOLIO'),
+          ),
+          TextButton(
+            style: style,
+            onPressed: () {},
+            child: const Text('CONTACT'),
+          ),
+          TextButton(
+            style: style,
+            onPressed: () {},
+            child: const Text('RESUME'),
+          ),
+        ],
         backgroundColor: Colors.black12,
         title: const Text(
           'Hasaan Saeed',
