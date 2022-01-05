@@ -47,7 +47,7 @@ class Resume extends StatelessWidget {
         title: const Text(
           'Hasaan Saeed',
           style: TextStyle(
-              fontSize: 40,
+              fontSize: 30,
               fontWeight: FontWeight.bold,
               color: Colors.deepPurple),
         ),
