@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Resume extends StatelessWidget {
   const Resume({Key? key}) : super(key: key);
@@ -44,10 +45,10 @@ class Resume extends StatelessWidget {
           ),
         ],
         backgroundColor: Colors.black12,
-        title: const Text(
+        title: Text(
           'Hasaan Saeed',
-          style: TextStyle(
-              fontSize: 30,
+          style: GoogleFonts.caveat(
+              fontSize: 40,
               fontWeight: FontWeight.bold,
               color: Colors.deepPurple),
         ),
