@@ -1,11 +1,11 @@
 import 'package:digitalresume/home.dart';
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 void main() => runApp(
-      const MaterialApp(
+      const GetMaterialApp(
         debugShowCheckedModeBanner: false,
         home: Resume(),
-        
       ),
     );
