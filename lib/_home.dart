@@ -814,13 +814,13 @@ class _ResumeState extends State<Resume> {
                 ? Column(
                     children: [
                       Text(
-                        'What I Do',
+                        'Get in touch',
                         style: GoogleFonts.roboto(
                           fontSize: 30,
                         ),
                       ),
                       Text(
-                        'I may not be perfect, but i am surely of some help:)',
+                        'Lets build something together :)',
                         style: GoogleFonts.roboto(
                           fontSize: 15,
                         ),
@@ -852,7 +852,8 @@ class _ResumeState extends State<Resume> {
                                       padding: const EdgeInsets.fromLTRB(
                                           0, 10, 0, 0),
                                       child: Text(
-                                        'Mobile Development',
+                                        'Phone'
+                                        '+92-305-5513127',
                                         style: TextStyle(fontSize: 20),
                                       ),
                                     ),
@@ -882,7 +883,8 @@ class _ResumeState extends State<Resume> {
                                       padding: const EdgeInsets.fromLTRB(
                                           0, 10, 0, 0),
                                       child: Text(
-                                        'Web-Development',
+                                        'Email'
+                                        'contact@ hasaansaeed42@gmail.com',
                                         style: TextStyle(fontSize: 20),
                                       ),
                                     ),
@@ -912,7 +914,8 @@ class _ResumeState extends State<Resume> {
                                       padding: const EdgeInsets.fromLTRB(
                                           0, 10, 0, 0),
                                       child: Text(
-                                        'Web-Development',
+                                        'Location'
+                                        'Faisalabad.pk',
                                         style: TextStyle(fontSize: 20),
                                       ),
                                     ),
@@ -928,13 +931,13 @@ class _ResumeState extends State<Resume> {
                 : Column(
                     children: [
                       Text(
-                        'What I Do',
+                        'Get in touch',
                         style: GoogleFonts.roboto(
                           fontSize: 30,
                         ),
                       ),
                       Text(
-                        'I may not be perfect, but i am surely of some help:)',
+                        'Lets build something together :)',
                         style: GoogleFonts.roboto(
                           fontSize: 15,
                         ),
@@ -946,64 +949,39 @@ class _ResumeState extends State<Resume> {
                           children: [
                             Padding(
                               padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
-                              child: Container(
-                                width: 300,
-                                height: 200,
-                                color: Colors.grey[600],
-                                child: Padding(
-                                  padding: const EdgeInsets.fromLTRB(0, 55, 0, 0),
-                                  child: Column(
-                                    children: [
-                                      IconButton(
-                                        padding:
-                                            EdgeInsets.fromLTRB(0, 0, 60, 40),
-                                        onPressed: () {},
-                                        icon: Icon(
-                                          Icons.phone_android,
-                                          size: 50,
-                                        ),
-                                        color: Colors.black,
-                                      ),
-                                      Padding(
-                                        padding: const EdgeInsets.fromLTRB(
-                                            0, 10, 0, 0),
-                                        child: Text(
-                                          'Mobile Development',
-                                          style: TextStyle(fontSize: 20),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ),
-                            Container(
-                              width: 300,
-                              height: 200,
-                              color: Colors.grey[600],
                               child: Padding(
-                                padding: const EdgeInsets.fromLTRB(0, 55, 0, 0),
-                                child: Column(
-                                  children: [
-                                    IconButton(
-                                      padding:
-                                          EdgeInsets.fromLTRB(0, 0, 60, 40),
-                                      onPressed: () {},
-                                      icon: Icon(
-                                        Icons.devices,
-                                        size: 50,
-                                      ),
-                                      color: Colors.black,
+                                padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
+                                child: Container(
+                                  width: 300,
+                                  height: 200,
+                                  color: Colors.grey[600],
+                                  child: Padding(
+                                    padding:
+                                        const EdgeInsets.fromLTRB(0, 55, 0, 0),
+                                    child: Column(
+                                      children: [
+                                        IconButton(
+                                          padding:
+                                              EdgeInsets.fromLTRB(0, 0, 60, 40),
+                                          onPressed: () {},
+                                          icon: Icon(
+                                            Icons.phone_android,
+                                            size: 50,
+                                          ),
+                                          color: Colors.black,
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.fromLTRB(
+                                              0, 10, 0, 0),
+                                          child: Text(
+                                            'Phone'
+                                            '+92-305-5513127',
+                                            style: TextStyle(fontSize: 20),
+                                          ),
+                                        ),
+                                      ],
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.fromLTRB(
-                                          0, 10, 0, 0),
-                                      child: Text(
-                                        'Web-Development',
-                                        style: TextStyle(fontSize: 20),
-                                      ),
-                                    ),
-                                  ],
+                                  ),
                                 ),
                               ),
                             ),
@@ -1031,7 +1009,43 @@ class _ResumeState extends State<Resume> {
                                         padding: const EdgeInsets.fromLTRB(
                                             0, 10, 0, 0),
                                         child: Text(
-                                          'Web-Development',
+                                          'Email'
+                                          'contact@ hasaansaeed42@gmail.com',
+                                          style: TextStyle(fontSize: 20),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(0, 20, 0, 20),
+                              child: Container(
+                                width: 300,
+                                height: 200,
+                                color: Colors.grey[600],
+                                child: Padding(
+                                  padding:
+                                      const EdgeInsets.fromLTRB(0, 55, 0, 0),
+                                  child: Column(
+                                    children: [
+                                      IconButton(
+                                        padding:
+                                            EdgeInsets.fromLTRB(0, 0, 60, 40),
+                                        onPressed: () {},
+                                        icon: Icon(
+                                          Icons.devices,
+                                          size: 50,
+                                        ),
+                                        color: Colors.black,
+                                      ),
+                                      Padding(
+                                        padding: const EdgeInsets.fromLTRB(
+                                            0, 10, 0, 0),
+                                        child: Text(
+                                          'Location'
+                                          'Faisalabad.pk',
                                           style: TextStyle(fontSize: 20),
                                         ),
                                       ),
