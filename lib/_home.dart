@@ -395,7 +395,7 @@ class _ResumeState extends State<Resume> {
                                       padding: const EdgeInsets.fromLTRB(
                                           20, 0, 0, 20),
                                       child: Text(
-                                        "I'm a Final Year Information Technology student enrolled in University Of Education, Faisalabad. I'm beginner in mobile apps. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience.",
+                                        'I am a Final Year Information Technology student enrolled in University Of Education, Faisalabad. I am beginner in mobile apps. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience.' ,
                                         style: TextStyle(
                                             color: Colors.black,
                                             fontSize: 15,
@@ -820,7 +820,7 @@ class _ResumeState extends State<Resume> {
                         ),
                       ),
                       Text(
-                        'Lets build something together :)',
+                        "Let's build something together :)",
                         style: GoogleFonts.roboto(
                           fontSize: 15,
                         ),
@@ -937,7 +937,7 @@ class _ResumeState extends State<Resume> {
                         ),
                       ),
                       Text(
-                        'Lets build something together :)',
+                        "Let's build something together :)",
                         style: GoogleFonts.roboto(
                           fontSize: 15,
                         ),
@@ -992,7 +992,8 @@ class _ResumeState extends State<Resume> {
                                 height: 200,
                                 color: Colors.grey[600],
                                 child: Padding(
-                                  padding: const EdgeInsets.fromLTRB(0, 55, 0, 0),
+                                  padding:
+                                      const EdgeInsets.fromLTRB(0, 55, 0, 0),
                                   child: Column(
                                     children: [
                                       IconButton(
